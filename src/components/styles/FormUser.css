@@ -1,0 +1,129 @@
+.formuser_wrapper {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #0003;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 100ms ease;
+} 
+
+.close_form {
+    transform: scale(0);
+}
+
+.formuser {
+    width: 100%;
+    max-width: 300px;
+    padding: 1.5em 1.5em 2.5em;
+    border-radius: 0.7em;
+    background-color: white;
+    position: relative;
+}
+
+.formuser_title {
+    text-align: center;
+    margin-bottom: 0.5em;
+    font-weight: 500;
+}
+
+.formuser_close {
+    position: absolute;
+    font-size: 1.2rem;
+    top: 1em;
+    right: 1.5em;
+    cursor: pointer;
+}
+
+.formuser_close:hover {
+    color: red;
+}
+
+.formuser__btn {
+    background-color: rgb(137, 174, 231);
+    margin: 2em;
+    font-size: 1em;
+    border-radius: 2.5px;
+}
+
+.formuser_container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4em;
+    margin-bottom: 0.8em;
+}
+
+.formuser_label {
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+.formuser_input {
+    padding: 0.4em 0.8em;
+    border-radius: 0.5em;
+    border: 0.1em solid #aaa;
+}  
+
+.formuser_btn {
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.6em 0 ;
+    background-color: rgb(22, 110, 218);
+    color: white;
+    border-radius: 0.5em;
+    margin-top: 1em;
+}
+
+.formuser_btn:hover {
+    filter: brightness(1.2);
+}
+
+.container__user {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(350px, 100%), 1fr));
+    gap: 2em;
+}
+
+.card{
+    width: 100%;
+    max-width: 300px;
+    margin: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+.usercard__name {
+    margin-top: 2em;
+}
+
+.item__email {
+    margin: 0.8em;
+}
+
+.item__birthday {
+    margin: 0.8em;
+}
+
+.btns__card {
+    display: flex;
+}
+
+.btn {
+    display: flex;
+    margin: 1.5em;
+}
+.icon-trash {
+    color: red;
+}
+
+.icon-edit {
+    color: blue;
+}
